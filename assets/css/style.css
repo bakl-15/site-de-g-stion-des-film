@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background:#27394b ;
+}
+.container{
+    background:#27394b ;
+}
+.box{
+    width: 500px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #191919;
+    text-align: center;
+    color: white;
+}
+.box h1{
+    font-weight: 500;
+}
+.box input[type = "number"], .box select{
+border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #3498db;
+padding: 14px 10px;
+width: 300px;
+outline: none; 
+color: lime;
+border-radius: 24px ;
+transition: 0.25s;
+}
+.box input[type = "number"]:focus, .box select:focus{
+    width: 250px;
+    border-color: #2ecc71;
+}
+
+.box button{
+ border: 0;
+background: none;
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #3498db;
+padding: 10px 10px;
+
+outline: none; 
+color: lime;
+border-radius: 24px ;
+transition: 0.25s;
+}
+
+.box h4{
+    color: red;
+}
+.box h5{
+    color: lime;
+}
